@@ -1,6 +1,6 @@
 # Gestural Font Editor
 
-**DEV/CREATOR = tubaxn**
+**DEV/CREATOR = tubakhxn**
 
 Edit a letter with your bare hand. Your webcam tracks 21 points on your hand, and the way you pose and rotate it reshapes a dotted, procedural A-Z glyph on screen in real time. Everything runs in the browser. No video ever leaves your machine.
 
