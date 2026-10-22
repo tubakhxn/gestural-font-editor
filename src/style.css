@@ -1,0 +1,21 @@
+/* DEV/CREATOR = tubaxn */
+:root { --dim: rgba(255,255,255,.8); }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #000; color: #fff; overflow: hidden; }
+#stage { position: fixed; inset: 0; container-type: size; font-family: Georgia, "Times New Roman", serif; text-shadow: 0 1px 6px rgba(0,0,0,.85); }
+.mono { font-family: "SF Mono", "Courier New", ui-monospace, monospace; }
+#video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform: scaleX(-1); }
+#shade { position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0,0,0,.55) 0, rgba(0,0,0,0) 26%, rgba(0,0,0,0) 72%, rgba(0,0,0,.6) 100%); }
+#cv { position: absolute; inset: 0; width: 100%; height: 100%; }
+#top { position: absolute; left: 4cqmin; top: 4cqmin; max-width: 62cqmin; }
+#top h1 { margin: 0 0 1.6cqmin; font-weight: 400; font-size: 5.6cqmin; line-height: 1.1; letter-spacing: -.01em; }
+#top p { margin: 0; font-size: 2.2cqmin; line-height: 1.5; color: var(--dim); }
+#tag { position: absolute; right: 4cqmin; top: 3cqmin; font-size: 1.3cqmin; letter-spacing: .12em; color: var(--dim); }
+#hint { position: absolute; left: 4cqmin; bottom: 8cqmin; font-size: 5cqmin; line-height: 1.2; }
+#status { position: absolute; left: 4cqmin; bottom: 4.6cqmin; font-size: 1.3cqmin; letter-spacing: .1em; color: var(--dim); text-transform: uppercase; }
+#keys { position: absolute; left: 4cqmin; bottom: 2.4cqmin; font-size: 1.3cqmin; letter-spacing: .12em; color: rgba(255,255,255,.65); }
+#badge { position: absolute; right: 4cqmin; bottom: 4cqmin; font-size: 1.5cqmin; letter-spacing: .14em; border: 1px solid #fff; padding: .6cqmin 1.4cqmin; }
+#badge[hidden] { display: none; }
+
+#status, #keys { display: none; }

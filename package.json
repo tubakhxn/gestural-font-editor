@@ -1,0 +1,20 @@
+{
+  "name": "gestural-font-editor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "node scripts/copy-assets.mjs",
+    "dev": "vite --host",
+    "build": "node scripts/copy-assets.mjs && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.14"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "author": "tubaxn",
+  "description": "Gestural Font Editor - edit a procedural letter with your hand"
+}
